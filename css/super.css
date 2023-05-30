@@ -1,0 +1,128 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 0.5%; 
+    background-color: #1CD1B0;
+}
+
+.Principal {
+    box-sizing: border-box;
+    position: sticky;
+    font-size: large;
+    width: 100%;
+    padding: 1%;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+div {
+    display: block;
+}
+
+.container1 {
+    background-image: url('../img/batman.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    left: 10%;
+    top: 30%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagen1 {
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info1 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 80%;
+}
+
+.heart {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container2 {
+    background-image: url('../img/harley.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    left: 40%;
+    top: 30%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagen2 {
+    border-radius: 50%;
+    position: absolute;
+    width: 41%;
+    left: 30%;
+    top: 22%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info2 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 80%;
+}
+
+.container3 {
+    background-image: url('../img/batman.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    left: 70%;
+    top: 30%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagen3 {
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info3 {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 80%;
+}
+
+footer {
+    color: white;
+    background-color: #00669F;
+    display: block;
+    width: 100%;
+}
+
+.boton {
+    color: #F3F3F3;
+    background-color: #00669F;
+    margin-left: 5%;
+    padding: 10px 20px 10px 20px;
+}
