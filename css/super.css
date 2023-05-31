@@ -10,8 +10,8 @@ header {
 }
 
 .Principal {
-    position: -webkit-sticky;
     position: sticky;
+    top: 10px;
     font-size: large;
     width: 100%;
     padding: 1%;
